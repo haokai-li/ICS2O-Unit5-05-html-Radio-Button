@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit5-05-html-Radio-Button -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Radio-Button, with JavaScript">
+    <meta name="keywords" content="MTHS, ICS2O">
+    <meta name="author" content="haokai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Radio-Button, with a JS file</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Radio Button, with a JS</h1>
+    <p>
+      Please enter your age:
+      <form action="javascript:enterClicked()">
+        <input type="radio" id="weekend" name="day" value="weekend">
+        <label for="day">Today is weekend</label><br><br>
+        <input type="radio" id="weekday" name="day" value="weekday">
+        <label for="day">Today is not weekend</label><br><br>
+
+        <br>
+        <p>Please enter the day of the week:</p>
+        <input type="radio" id="child" name="age" value="child">
+        <label for="day">age is under 18</label><br><br>
+        <input type="radio" id="adult" name="age" value="adult">
+        <label for="day">age is not under 18</label><br><br>
+        <input type="submit" value="submit">
+      </form>
+    </p>
+    <div id="submit-into">
+      <div id="answer"></div>
+    </div>
+  </body>
+</html>
